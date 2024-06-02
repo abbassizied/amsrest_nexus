@@ -5,6 +5,12 @@ pipeline {
   }
 
   stages {
+
+    stage('Checkout') {
+      steps {
+        git branch: 'main', url: 'https://github.com/abbassizied/amsrest_sonarqube_nexus.git'
+      }
+    }    
     stage('build') {
       steps {
         sh 'mvn clean install -DskipTests'
