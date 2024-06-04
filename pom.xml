@@ -57,11 +57,6 @@
 			<name>AMS Repository</name>
 			<url>http://localhost:8081/repository/ams_repo/</url>
 		</repository>
-		<snapshotRepository>
-			<id>nexus-ams</id>
-			<name>AMS Repository</name>
-			<url>http://localhost:8081/repository/ams_repo/</url>
-		</snapshotRepository>		
 	</distributionManagement>
 
 	<build>
