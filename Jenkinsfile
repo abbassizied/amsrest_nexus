@@ -37,7 +37,7 @@ pipeline {
 
             credentialsId: 'nexus_cred',
             groupId: 'com.sip',
-            nexusUrl: 'localhost:8081',
+            nexusUrl: 'nexus:8081',
             nexusVersion: 'nexus3',
             protocol: 'http',
             repository: 'ams_repo',
